@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DatePickerFragment extends Fragment {
+public class TimePickerDialogFragment extends Fragment {
 
 
-    public DatePickerFragment() {
+    public TimePickerDialogFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +23,7 @@ public class DatePickerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_date_picker, container, false);
+        return inflater.inflate(R.layout.fragment_time_picker_dialog, container, false);
     }
 
 }
